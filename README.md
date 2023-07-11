@@ -7,7 +7,7 @@ Playing With FizzBuzz
 - MySQL `docker run -d --name ps -d -p 3306:3306/tcp  -e MYSQL_ROOT_PASSWORD=root percona/percona-server:8.0.32-24`
 - PostgreSQL `docker run -d --name postq -d -p 5432:5432/tcp -e POSTGRES_PASSWORD=s3cr3t postgres:latest`
 - ImageMagick `brew install imagemagick`
-- [fd[](https://github.com/sharkdp/fd) `brew install fd` (optional) in place of the Unix `find` command
+- [fd](https://github.com/sharkdp/fd) `brew install fd` A simple, fast and user-friendly alternative to 'find'
 
 - PostgreSQL-Client `brew install libpq`
 - MySQL-Client `brew install mysql-client`
@@ -137,7 +137,7 @@ FizzBuzz on  main [!?]
 
 
 ## How to run the SQL files
-````bash
+```bash
 MySQL_FizzBuzz.sql
 cat MySQL_FizzBuzz.sql | mysql -vv
 --------------
